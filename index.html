@@ -20,11 +20,10 @@
         <nav class="navbar navbar-light navbar-expand-lg" style="border-style: none;border-color: rgba(255,255,255,0);">
             <div class="container"><button data-bs-toggle="collapse" class="navbar-toggler" data-bs-target="#navcol-1"><span class="visually-hidden">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
                 <div class="collapse navbar-collapse flex-column" id="navcol-1"><img class="rounded-circle img-fluid shadow-lg profile-image" src="assets/img/profile-pic.jpg" loading="lazy" width="160px" height="160px">
-                    <p class="text-white navbar-text bio"><br>Hi, my name is Amir Soltani and I'm a junior software engineer. Welcome to my personal website!<br></p>
                     <ul class="list-unstyled list-inline py-2 mx-auto social-link">
                         <li data-bss-hover-animate="pulse" class="list-inline-item icon-item"><a href="https://github.com/amirsoltaani" target="_blank"><i class="fab fa-github social-icon"></i></a></li>
                         <li data-bss-hover-animate="pulse" class="list-inline-item icon-item"><a href="https://www.linkedin.com/in/amir-soltani90" target="_blank"><i class="fab fa-linkedin social-icon"></i></a></li>
-                        <li data-bss-hover-animate="pulse" class="list-inline-item icon-item"><a href="#"><i class="fab fa-stack-overflow social-icon"></i></a></li>
+                        <li data-bss-hover-animate="pulse" class="list-inline-item icon-item"><a href="https://stackoverflow.com/users/14717588/amir-soltani" target="_blank"><i class="fab fa-stack-overflow social-icon"></i></a></li>
                         <li data-bss-hover-animate="pulse" class="list-inline-item icon-item"><a href="mailto:amir.soltaani@outlook.com"><i class="fas fa-envelope social-icon"></i></a></li>
                     </ul>
                     <hr>
@@ -36,7 +35,8 @@
                         <li data-bss-hover-animate="pulse" class="nav-item"><a class="d-flex flex-row-reverse justify-content-end nav-links menu-item" href="#blog">Blog<i class="fas fa-blog d-flex flex-row-reverse justify-content-end nav-icon menu-item"></i></a></li>
                         <li data-bss-hover-animate="pulse" class="nav-item"><a class="d-flex flex-row-reverse justify-content-end nav-links menu-item" href="#get-in-touch">Get in Touch<i class="fas fa-handshake nav-icon"></i></a></li>
                     </ul>
-                    <hr><a class="btn btn-link d-flex flex-row-reverse justify-content-center resume menu-item" role="button" data-bss-hover-animate="pulse">Download My Resume<i class="fas fa-download nav-icon menu-item"></i></a>
+                    <hr><a class="btn btn-outline-link btn-lg d-flex flex-row-reverse justify-content-center resume menu-item" role="button">Download My Resume<i class="fas fa-download nav-icon menu-item"></i></a>
+                    <hr>
                     <div class="form-check form-switch dark-switch"><input class="form-check-input" type="checkbox" id="darkMode"><label class="form-check-label" for="darkMode"><i class="fas fa-sun" id="mode-icon"></i></label></div>
                 </div>
             </div>
@@ -61,7 +61,7 @@
             </div>
         </section>
         <section class="shadow section p-3 p-lg-5" id="education">
-            <div class="d-flex align-items-center section-header"><img data-bss-hover-animate="tada" class="title-image" src="assets/img/education-light.png">
+            <div class="d-flex align-items-center section-header"><img class="title-image" src="assets/img/education-light.png">
                 <h1 class="display-5">Education</h1>
             </div>
             <div class="row d-flex flex-column align-items-start flex-lg-row">
@@ -75,7 +75,7 @@
             </div>
         </section>
         <section class="shadow section p-3 p-lg-5" id="skills">
-            <div class="d-flex align-items-center section-header"><img data-bss-hover-animate="flash" class="title-image" src="assets/img/skill-light.png">
+            <div class="d-flex align-items-center section-header"><img class="title-image" src="assets/img/skill-light.png">
                 <h1 class="display-5">Skills</h1>
             </div>
             <div class="row d-flex flex-row align-items-start flex-nowrap skills overflow-auto">
@@ -233,13 +233,13 @@
             </div>
         </section>
         <section class="shadow section p-3 p-lg-5" id="projects">
-            <div class="d-flex align-items-center section-header"><img data-bss-hover-animate="rubberBand" class="title-image" src="assets/img/project-light.png">
+            <div class="d-flex align-items-center section-header"><img class="title-image" src="assets/img/project-light.png">
                 <h1 class="display-5">Projects</h1>
             </div>
             <div class="accordion accordion-flush" role="tablist" id="accordion-1">
                 <div class="accordion-item">
-                    <h2 class="accordion-header" role="tab"><button class="accordion-button collapsed project-btn" data-bs-toggle="collapse" data-bs-target="#accordion-1 .item-1" aria-expanded="false" aria-controls="accordion-1 .item-1">Capstone Project</button></h2>
-                    <div class="accordion-collapse collapse item-1 project-content" role="tabpanel" data-bs-parent="#accordion-1">
+                    <h2 class="accordion-header" role="tab"><button class="accordion-button project-btn" data-bs-toggle="collapse" data-bs-target="#accordion-1 .item-1" aria-expanded="true" aria-controls="accordion-1 .item-1">Capstone Project</button></h2>
+                    <div class="accordion-collapse collapse show item-1 project-content" role="tabpanel" data-bs-parent="#accordion-1">
                         <div class="accordion-body">
                             <div class="d-flex flex-column align-items-center flex-md-row"><img class="project-icon" src="assets/img/recruitment.png">
                                 <h2 class="text-center text-sm-start">Level Ground Recruitment</h2>
@@ -268,7 +268,7 @@
                                 </div>
                             </div>
                             <div class="row">
-                                <div class="col d-flex justify-content-end"><a class="btn btn-primary" role="button" target="_blank"><i class="fab fa-github icon-item"></i>View on GitHub</a></div>
+                                <div class="col d-flex justify-content-end"><a class="btn btn-primary" role="button" target="_blank" href="https://github.com/ArmaanSinghKlair/level-ground-recruitment.git"><i class="fab fa-github icon-item"></i>View on GitHub</a></div>
                             </div>
                         </div>
                     </div>
@@ -293,7 +293,7 @@
                                 </div>
                             </div>
                             <div class="row">
-                                <div class="col d-flex justify-content-end"><a class="btn btn-primary" role="button" target="_blank"><i class="fab fa-github icon-item"></i>View on GitHub</a></div>
+                                <div class="col d-flex justify-content-end"><a class="btn btn-primary" role="button" target="_blank" href="https://github.com/amirsoltaani/amirsoltaani.github.io.git"><i class="fab fa-github icon-item"></i>View on GitHub</a></div>
                             </div>
                         </div>
                     </div>
@@ -327,8 +327,8 @@
                     </div>
                 </div>
                 <div class="accordion-item">
-                    <h2 class="accordion-header" role="tab"><button class="accordion-button project-btn" data-bs-toggle="collapse" data-bs-target="#accordion-1 .item-4" aria-expanded="true" aria-controls="accordion-1 .item-4">Battleship</button></h2>
-                    <div class="accordion-collapse collapse show item-4 project-content" role="tabpanel" data-bs-parent="#accordion-1">
+                    <h2 class="accordion-header" role="tab"><button class="accordion-button collapsed project-btn" data-bs-toggle="collapse" data-bs-target="#accordion-1 .item-4" aria-expanded="false" aria-controls="accordion-1 .item-4">Battleship</button></h2>
+                    <div class="accordion-collapse collapse item-4 project-content" role="tabpanel" data-bs-parent="#accordion-1">
                         <div class="accordion-body">
                             <div class="d-flex flex-column align-items-center flex-md-row"><img class="project-icon" src="assets/img/battleship.png">
                                 <h2 class="text-center text-sm-start">Server / Client Based Two Player Game<br></h2>
@@ -381,7 +381,7 @@
             </div>
         </section>
         <section class="shadow section p-3 p-lg-5" id="blog">
-            <div class="d-flex align-items-center section-header"><img data-bss-hover-animate="bounce" class="title-image" src="assets/img/blog-light.png">
+            <div class="d-flex align-items-center section-header"><img class="title-image" src="assets/img/blog-light.png">
                 <h1 class="display-5">Blog</h1>
             </div>
             <div class="container team-clean">
